@@ -46,10 +46,12 @@ Dark green: #28b485
     position: absolute;
     bottom: 10vh;
     right: 10vh;
+    z-index: -1;
 }
 
 .email__input {
     width: 60%;
+    max-width: 550px;
     height: 40px;
     padding: 1.5rem 2rem;
     border: none;
